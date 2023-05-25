@@ -4,7 +4,7 @@ import datetime
 
 downloads_folder = os.path.expanduser("~/Downloads")
 documents_folder = os.path.expanduser("~/Documents")
-onedrive_folder = os.path.expanduser("~/OneDrive")
+onedrive_folder = os.path.expanduser("C:\Users\asimmons01\OneDrive - Hearst\PC Backup")
 
 # Calculate the date threshold
 threshold_date = datetime.datetime.now() - datetime.timedelta(days=30)
